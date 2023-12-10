@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney+ Hotstar Clone</title>
+
+    <!---sample or main css file---->
+    <link rel="stylesheet" href="style.css">
+
+    <!-----favi icon or icon show link-->
+    <link rel="icon" type="image/png" href="images/logo.png">
+
+    <!-- Roboto GFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="https://www.hotstar.com/in" target="_blank">
+        <img src="images/disney-hotstar-logo-dark.svg" class="brand-logo">
+        </a>
+        <ul class="nav-links">
+            <li class="nav-items"><a href="https://www.hotstar.com/in/shows" target="_blank">TV</a></li>
+            <li class="nav-items"><a href="https://www.hotstar.com/in/movies" target="_blank">movies</a></li>
+            <li class="nav-items"><a href="https://www.hotstar.com/in/sports" target="_blank">sports</a></li>
+            <li class="nav-items"><a href="https://www.hotstar.com/in/shows" target="_blank">premium</a></li>
+        </ul>
+
+        <div class="right-container">
+            <input type="text" class="search-box" placeholder="search">
+            <a href="https://www.hotstar.com/in/paywall" target="_blank"><button class="sub-btn">subscribe</button></a>
+            <a href="https://www.hotstar.com/in/paywall#mp-login" target="_blank" class="login-link">login</a>
+        </div>
+    </nav>
+
+
+    <div class="carousel-container">
+        <div class="carousel"></div>
+    </div>
+
+    <div class="video-card-container">
+
+
+        <!-- Video cards -->
+        <div class="video-card">
+            <img src="images/disney.PNG" alt="" class="video-card-image">
+            <video src="videos/disney.mp4" mute loop class="card-video">
+            </video>
+        </div>
+
+        <div class="video-card">
+            <img src="images/pixar.PNG" alt="" class="video-card-image">
+            <video src="videos/pixar.mp4" mute loop class="card-video">
+            </video>
+        </div>
+
+        <div class="video-card">
+            <img src="images/marvel.PNG" alt="" class="video-card-image">
+            <video src="videos/marvel.mp4" mute loop class="card-video">
+            </video>
+        </div>
+
+        <div class="video-card">
+            <img src="images/star-wars.PNG" alt="" class="video-card-image">
+            <video src="videos/star-war.mp4" mute loop class="card-video">
+            </video>
+        </div>
+
+        <div class="video-card">
+            <img src="images/geographic.PNG" alt="" class="video-card-image">
+            <video src="videos/geographic.mp4" mute loop class="card-video">
+            </video>
+        </div>
+
+
+    </div>
+
+
+    <!-- C1 -->
+    <h1 class="title">recommended for you</h1>
+    <div class="movies-list">
+        <button class="pre-btn"><img src="images/pre.png"></button>
+        <button class="nxt-btn"><img src="images/nxt.png"></button>
+        <div class="card-container">
+            <!-- 1 -->
+            <div class="card">
+                <img src="images/poster 1.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">Loki</h2>
+                    <h6 class="des">2021</h6>
+                    <a href="https://www.hotstar.com/in/shows/loki/1260063451" target="_blank">
+                        <button class="watchlist-btn">Play</button>
+                    </a>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="card">
+                <img src="images/poster 2.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">Mulan</h2>
+                    <h6 class="des">2020</h6>
+                    <a href="https://www.hotstar.com/in/movies/mulan/1260048586" target="_blank">
+                        <button class="watchlist-btn">Play</button>
+                    </a>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="card">
+                <img src="images/poster 3.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">Falcon and Winter Soldier</h2>
+                    <h6 class="des">2021</h6>
+                    <a href="https://www.hotstar.com/in/shows/the-falcon-and-the-winter-soldier/1260055670" target="_blank">
+                        <button class="watchlist-btn">Play</button>
+                    </a>
+                </div>
+            </div>
+            <!-- 4 -->
+            <div class="card">
+                <img src="images/poster 4.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">Avengers: Endgame</h2>
+                    <h6 class="des">2019</h6>
+                    <a href="https://www.hotstar.com/in/movies/avengers-endgame/1260013556" target="_blank">
+                        <button class="watchlist-btn">Play</button>
+                    </a>
+                </div>
+            </div>
+            <!-- 5 -->
+            <div class="card">
+                <img src="images/poster 5.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">Thor: Ragnarok</h2>
+                    <h6 class="des">2017</h6>
+                    <a href="https://www.hotstar.com/in/movies/mulan/1260048586" target="_blank">
+                        <button class="watchlist-btn">Play</button>
+                    </a>
+                </div>
+            </div>
+            <!-- 6 -->
+            <div class="card">
+                <img src="images/poster 6.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">Marvel's Avengers</h2>
+                    <h6 class="des">2017</h6>
+                    <a href="https://www.hotstar.com/in/movies/marvels-the-avengers/1660000015" target="_blank">
+                        <button class="watchlist-btn">Play</button>
+                    </a>
+                </div>
+            </div>
+            <!-- 7 -->
+            <div class="card">
+                <img src="images/poster 7.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">Pirates of Carribean: Salazar's Revenge</h2>
+                    <h6 class="des">2017</h6>
+                    <a href="https://www.hotstar.com/in/movies/pirates-of-the-caribbean-salazars-revenge/1260018339" target="_blank">
+                        <button class="watchlist-btn">Play</button>
+                    </a>
+                </div>
+            </div>
+            <!-- 8 -->
+            <div class="card">
+                <img src="images/poster 8.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">Soul</h2>
+                    <h6 class="des">2020</h6>
+                    <a href="https://www.hotstar.com/in/movies/soul/1260049853" target="_blank">
+                        <button class="watchlist-btn">Play</button>
+                    </a>
+                </div>
+            </div>
+            <!-- 9 -->
+            <div class="card">
+                <img src="images/poster 9.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">Raya: The Last Dragon</h2>
+                    <h6 class="des">2021</h6>
+                    <a href="https://www.hotstar.com/in/movies/raya-and-the-last-dragon/1260062999" target="_blank">
+                        <button class="watchlist-btn">Play</button>
+                    </a>
+                </div>
+            </div>
+            <!-- 10 -->
+            <div class="card">
+                <img src="images/poster 10.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">Luca</h2>
+                    <h6 class="des">2021</h6>
+                    <a href="https://www.hotstar.com/in/movies/luca/1260063730" target="_blank">
+                        <button class="watchlist-btn">Play</button>
+                    </a>
+                </div>
+            </div>
+            <!-- 11 -->
+            <div class="card">
+                <img src="images/poster 11.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">Ford vs Ferrari</h2>
+                    <h6 class="des">2019</h6>
+                    <a href="https://www.hotstar.com/in/movies/ford-v-ferrari/1260029222" target="_blank">
+                        <button class="watchlist-btn">Play</button>
+                    </a>
+                </div>
+            </div>
+            <!-- 12 -->
+            <div class="card">
+                <img src="images/poster 12.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">Dark Phoenix</h2>
+                    <h6 class="des">2019</h6>
+                    <a href="https://www.hotstar.com/in/movies/x-men-dark-phoenix/1260017860" target="_blank">
+                        <button class="watchlist-btn">Play</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- C2 -->
+    <h1 class="title">Popular & Trending</h1>
+    <div class="movies-list">
+        <button class="pre-btn"><img src="images/pre.png"></button>
+        <button class="nxt-btn"><img src="images/nxt.png"></button>
+        <div class="card-container">
+            <!-- 6 -->
+            <div class="card">
+                <img src="images/poster 6.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">Marvel's Avengers</h2>
+                    <h6 class="des">2017</h6>
+                    <a href="https://www.hotstar.com/in/movies/marvels-the-avengers/1660000015" target="_blank">
+                        <button class="watchlist-btn">Play</button>
+                    </a>
+                </div>
+            </div>
+            <!-- 7 -->
+            <div class="card">
+                <img src="images/poster 7.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">Pirates of Caribbean: Salazar's Revenge</h2>
+                    <h6 class="des">2017</h6>
+                    <a href="https://www.hotstar.com/in/movies/pirates-of-the-caribbean-salazars-revenge/1260018339" target="_blank">
+                        <button class="watchlist-btn">Play</button>
+                    </a>
+                </div>
+            </div>
+            <!-- 8 -->
+            <div class="card">
+                <img src="images/poster 8.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">Soul</h2>
+                    <h6 class="des">2020</h6>
+                    <a href="https://www.hotstar.com/in/movies/soul/1260049853" target="_blank">
+                        <button class="watchlist-btn">Play</button>
+                    </a>
+                </div>
+            </div>
+            <!-- 9 -->
+            <div class="card">
+                <img src="images/poster 9.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">Raya: The Last Dragon</h2>
+                    <h6 class="des">2021</h6>
+                    <a href="https://www.hotstar.com/in/movies/raya-and-the-last-dragon/1260062999" target="_blank">
+                        <button class="watchlist-btn">Play</button>
+                    </a>
+                </div>
+            </div>
+            <!-- 10 -->
+            <div class="card">
+                <img src="images/poster 10.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">Luca</h2>
+                    <h6 class="des">2021</h6>
+                    <a href="https://www.hotstar.com/in/movies/luca/1260063730" target="_blank">
+                        <button class="watchlist-btn">Play</button>
+                    </a>
+                </div>
+            </div>
+            <!-- 11 -->
+            <div class="card">
+                <img src="images/poster 11.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">Ford vs Ferrari</h2>
+                    <h6 class="des">2019</h6>
+                    <a href="https://www.hotstar.com/in/movies/ford-v-ferrari/1260029222" target="_blank">
+                        <button class="watchlist-btn">Play</button>
+                    </a>
+                </div>
+            </div>
+            <!-- 12 -->
+            <div class="card">
+                <img src="images/poster 12.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">Dark Phoenix</h2>
+                    <h6 class="des">2019</h6>
+                    <a href="https://www.hotstar.com/in/movies/x-men-dark-phoenix/1260017860" target="_blank">
+                    <button class="watchlist-btn">Play</button>
+                    </a>
+                </div>
+            </div>
+            <!-- 1 -->
+            <div class="card">
+                <img src="images/poster 1.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">Loki</h2>
+                    <h6 class="des">2021</h6>
+                    <a href="https://www.hotstar.com/in/shows/loki/1260063451" target="_blank">
+                        <button class="watchlist-btn">Play</button>
+                    </a>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="card">
+                <img src="images/poster 2.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">Mulan</h2>
+                    <h6 class="des">2020</h6>
+                    <a href="https://www.hotstar.com/in/movies/mulan/1260048586" target="_blank">
+                        <button class="watchlist-btn">Play</button>
+                    </a>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="card">
+                <img src="images/poster 3.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">Falcon and Winter Soldier</h2>
+                    <h6 class="des">2021</h6>
+                    <a href="https://www.hotstar.com/in/shows/the-falcon-and-the-winter-soldier/1260055670" target="_blank">
+                        <button class="watchlist-btn">Play</button>
+                    </a>
+                </div>
+            </div>
+            <!-- 4 -->
+            <div class="card">
+                <img src="images/poster 4.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">Avengers: Endgame</h2>
+                    <h6 class="des">2019</h6>
+                    <a href="https://www.hotstar.com/in/movies/avengers-endgame/1260013556" target="_blank">
+                        <button class="watchlist-btn">Play</button>
+                    </a>
+                </div>
+            </div>
+            <!-- 5 -->
+            <div class="card">
+                <img src="images/poster 5.png" alt="" class="card-image">
+                <div class="card-body">
+                    <h2 class="name">Thor:  Ragnarok</h2>
+                    <h6 class="des">2017</h6>
+                    <a href="https://www.hotstar.com/in/movies/thor-ragnarok/1660010577" target="_blank">
+                        <button class="watchlist-btn">Play</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---- js file-->
+    <script src="slider-data.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
